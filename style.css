@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+aside {
+
+    max-height: 100%;
+    min-width: 20%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.blue_th {
+
+    max-width: 5rem;
+    max-height: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(48, 48, 192);
+
+}
+
+main {
+min-width: 80%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_s {
+
+    max-width: 100%;
+    min-height: 15%;
+    background-color: beige;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav_s div {
+
+    max-height: 2rem;
+    max-width: 2rem;
+    background-color: grey;
+    font-weight: bold;
+    margin: 1rem;
+    border-radius: 15%;
+}
+
+.main_card {
+
+    min-height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.central {
+
+    max-width: 60%;
+    max-height: 40%;
+    background-color: brown;
+    padding: 5rem;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.central span {
+    max-height: 2rem;
+    max-width: 2rem;
+    background-color: grey;
+    font-weight: bold;
+    margin: 1rem;
+    align-self: center;
+}
+
+.logo {
+
+    padding: 1rem;
+    border-radius: 50%;
+    max-height: 2rem;
+    max-width: 2rem;
+    background-color: grey;
+    align-self: flex-end;
+}
+
+@media screen and () {
+    
+}
